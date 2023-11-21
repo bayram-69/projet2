@@ -1,0 +1,169 @@
+.shopList {
+  border: solid #9986fa 3px;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  padding: 0.5rem;
+  height: auto;
+  background-color: rgba(65, 59, 80, 0.8);
+}
+
+.quantity {
+  font-size: 13px;
+}
+
+.prices {
+  font-size: 13px;
+}
+
+.titleShop {
+  color: aliceblue;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cartItems_img img {
+  width: 20%;
+}
+
+.cartItems_img {
+  display: flex;
+  align-items: center;
+}
+
+.cartItems_img p {
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+.priceItems {
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.buttonBasket {
+  padding: 3px;
+  margin: 3px;
+}
+
+.cartItems_info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.textBasket {
+  text-align: end;
+}
+
+.buttonsItems {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.basketAdd {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.basketCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.basketCount img {
+  width: 10%;
+}
+
+a {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 760px) {
+  .shopList {
+    margin: 3rem;
+    color: aliceblue;
+    padding: 1rem;
+  }
+
+  .cartItems_img img {
+    width: 15%;
+  }
+
+  .cartItems_img a {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .buttonBasket {
+    padding: 0.5rem;
+  }
+
+  .quantity {
+    font-size: 28px;
+  }
+
+  .cartItems_img {
+    display: flex;
+    align-items: center;
+  }
+
+  .priceItems {
+    font-size: 28px;
+    margin-left: 2rem;
+  }
+
+  .cartItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .titleShop {
+    color: aliceblue;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .cartItems_info {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttonsItems {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .quantity {
+    font-size: 28px;
+    margin: 10px;
+  }
+
+  .prices {
+    font-size: 28px;
+  }
+
+  .basketAdd {
+    font-size: 15px;
+  }
+}
